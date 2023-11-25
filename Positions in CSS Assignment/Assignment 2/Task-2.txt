@@ -1,0 +1,21 @@
+Q-2. Explain the difference between Absolute and Relative positioning.
+
+
+Ans-2. Absolute and relative positioning are two fundamental concepts in web design and CSS (Cascading Style Sheets) that are used to control the positioning of elements within a web page. They are both important for layout and design, but they work in different ways:
+
+1. Absolute Positioning:
+
+Absolute positioning allows you to position an element within its containing parent element in a way that is completely detached from the normal document flow. This means that the element is taken out of the normal document flow, and its position is determined with respect to the nearest positioned ancestor (an ancestor element with a position value other than static).
+When you apply absolute positioning to an element, you can use properties like top, right, bottom, and left to specify the exact pixel values from the edges of its nearest positioned ancestor where the element should be placed.
+Elements with absolute positioning are not affected by other elements in the document flow. They can overlap with other elements if their positions are not carefully managed.
+Common use cases for absolute positioning include creating pop-up menus, tooltips, or positioning elements precisely within a container.
+
+2. Relative Positioning:
+
+Relative positioning, on the other hand, allows you to adjust the position of an element relative to its normal position in the document flow. It doesn't remove the element from the document flow, so it still occupies space in the layout as if it were in its original position.
+When you apply relative positioning to an element, you can use properties like top, right, bottom, and left to specify how much the element should be offset from its normal position. For example, setting top: 10px will move the element 10 pixels down from its original position.
+Relative positioning is often used when you want to fine-tune the positioning of elements without taking them completely out of the document flow. It can be helpful for adjusting the position of elements within a container or for creating subtle design effects.
+In summary, the key difference between absolute and relative positioning is how they affect the document flow and the way elements are positioned:
+
+Absolute positioning takes an element out of the document flow and positions it relative to a specified ancestor with a non-static position, allowing for precise control over its placement.
+Relative positioning adjusts the position of an element relative to its normal position in the document flow, without removing it from the flow, making it useful for fine-tuning layout adjustments while keeping the element's place in the flow.
